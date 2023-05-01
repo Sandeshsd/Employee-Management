@@ -13,24 +13,24 @@ public class Employee {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
  private int employeeId;
- private int employeeName;
- private int empoyeePhoneNumber;
+ private String employeeName;
+ private long empoyeePhoneNumber;
 public int getEmployeeId() {
 	return employeeId;
 }
 public void setEmployeeId(int employeeId) {
 	this.employeeId = employeeId;
 }
-public int getEmployeeName() {
+public String getEmployeeName() {
 	return employeeName;
 }
-public void setEmployeeName(int employeeName) {
+public void setEmployeeName(String employeeName) {
 	this.employeeName = employeeName;
 }
-public int getEmpoyeePhoneNumber() {
+public long getEmpoyeePhoneNumber() {
 	return empoyeePhoneNumber;
 }
-public void setEmpoyeePhoneNumber(int empoyeePhoneNumber) {
+public void setEmpoyeePhoneNumber(long empoyeePhoneNumber) {
 	this.empoyeePhoneNumber = empoyeePhoneNumber;
 }
  

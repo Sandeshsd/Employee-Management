@@ -11,9 +11,8 @@
         
         <f:form action="addEmployee" modelAttribute="employee">
         <f:input path="employeeName"/>
-        <f:input path="employeePhoneNumber"/>
+        <f:input path="empoyeePhoneNumber"/>
         <input type="submit" value="save">
-        
         </f:form>
         
 </body>
