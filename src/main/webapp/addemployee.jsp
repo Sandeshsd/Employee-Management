@@ -8,5 +8,6 @@
 </head>
 <body>
   <a href="saveEmployee">add employee</a>
+  <a href="viewemployees.jsp">view employee</a>
 </body>
 </html>
